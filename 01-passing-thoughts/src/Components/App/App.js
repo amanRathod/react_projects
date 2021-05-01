@@ -31,7 +31,7 @@ const removeThought = (thoughtIdToRemove) => {
     <div className="App">
       <header>
         <h1>Passing Thoughts</h1>
-        <h2>Your thought will disappear automatically with in 15 seconds</h2>
+        <h2>Your thoughts will disappear automatically after 15 second</h2>
       </header>
       <main>
         <AddThoughtForm addThought={addThought} />
